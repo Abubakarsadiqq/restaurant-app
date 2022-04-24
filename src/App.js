@@ -1,36 +1,40 @@
 import React from 'react';
-import Navbar from './Components/Navbar';
-import Home from './Components/Home';
+ import Navbar from './Components/Navbar';
+import {
+BrowserRouter,
+Route,
+Routes
+} from 'react-router-dom'
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Product from './Pages/Product';
+import Contact from './Pages/Contact';
 
-//import{
-//BrowserRouter as Router,
-//Routes,
-//Route,
-//Link
-//} from 'react-router-dom';
-//import styles from './App.css';
-//import Products from './Components/Products';
-//import Contacts from './Components/Contacts';
-//<Router>
-//<Route exact path='/' element={<Home />}></Route>
-//<Route exact path='/' element={<About />}></Route>
-//<Route exact path='/' element={<Contact/>}></Route>
-//<Route exact path='/' element={<Product/>}></Route>  
-//</Router>
-//
 
 
 function App(){
+   
 return(
- <section>
-   <Navbar/>
-   <Home/>
- </section>
+ 
 
- )
+    <BrowserRouter>
+     <div className='app'>
+       <Navbar />
+       </div>
+    <Routes>
+   
+      <Route path='/' element={<Home/>} exact/>
+      <Route path='/about' element={<About/>}/>
+      <Route path='/product' element={<Product/>}/>
+      <Route path='/contact' element={<Contact/>}/>    
+     </Routes>  
+    </BrowserRouter>
+
+    
+
+    );
 
 }
-
 
 
 

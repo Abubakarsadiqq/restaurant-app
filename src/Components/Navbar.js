@@ -1,5 +1,6 @@
 import React from 'react';
-import styles from './navbar.css';
+import './navbar.css';
+import {Link} from 'react-router-dom';
 
 
 function Navbar(){
@@ -14,10 +15,10 @@ return(
   <div className="header-right">
   <nav>
       <ul>
-         <li><a>Home</a></li>
-         <li><a>About</a></li>
-         <li><a>Products</a></li>
-         <li><a>Contact</a></li>
+         <li><Link to='/'>Home</Link></li>
+         <li><Link to='/about'>About</Link></li>
+         <li><Link to='/product'>Products</Link></li>
+         <li><Link to='/contact'>Contact</Link></li>
       </ul>
   </nav>
 

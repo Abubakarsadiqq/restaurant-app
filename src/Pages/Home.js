@@ -1,5 +1,5 @@
 import React from 'react';
-import  styles from './home.css';
+import './home.css';
 
 
 
