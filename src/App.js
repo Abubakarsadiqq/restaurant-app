@@ -9,25 +9,24 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Product from './Pages/Product';
 import Contact from './Pages/Contact';
-
+import Footer from'./Components/Footer';
 
 
 function App(){
    
 return(
- 
-
     <BrowserRouter>
      <div className='app'>
        <Navbar />
-       </div>
+      
+       </div> 
     <Routes>
-   
       <Route path='/' element={<Home/>} exact/>
       <Route path='/about' element={<About/>}/>
       <Route path='/product' element={<Product/>}/>
       <Route path='/contact' element={<Contact/>}/>    
      </Routes>  
+     <footer> <Footer /></footer>
     </BrowserRouter>
 
     

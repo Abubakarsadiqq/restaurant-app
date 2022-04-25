@@ -1,0 +1,45 @@
+.c-container{
+    margin-top: 80px;
+}
+.c-container h1{
+text-align: center;
+text-transform: uppercase;
+
+}
+form{
+    width: 40%;
+    height: auto;
+    padding: 15px;
+    margin: 30px 0 0 120px;
+    text-align: center;
+
+}
+form input{
+border-radius: 8px;
+border: 2px solid blue;
+padding: 9px;
+color: #f65314;
+font-size: medium;
+
+}
+
+form textarea{
+padding: 9px;
+height: 200px;
+border: 2px solid blue;
+border-radius: 7px;
+}
+
+form button{
+border:none;
+width: 150px;
+height: 50px;
+background-color: #f65314;
+color:#00a1f1;
+
+
+}
+
+
+
+

@@ -18,9 +18,10 @@ header{
 }
 .header-left .logo{
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 24px;
     color: #f65314;
-   font-weight: 700;
+   font-weight: 900;
+   text-shadow: 2px 3px 5px lightblue;
 }
 
 nav ul li{
@@ -35,6 +36,9 @@ align-items: center;
 -ms-align-items:center;
 }
 
-ul li a{
+ nav ul li a{
+    color: darkblue;
 text-decoration: none;
+font-weight: bold;
+
 }

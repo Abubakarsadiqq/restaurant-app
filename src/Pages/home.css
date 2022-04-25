@@ -3,6 +3,7 @@
     position: relative;
     background: url('/public/Images/download\ \(4\).jpeg') no-repeat center center/cover;
     width: 100%;
+    background-size: cover;
     height: 100vh;
     z-index: 100;
   }
