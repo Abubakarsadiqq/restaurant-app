@@ -10,7 +10,7 @@ return(
    
          <div className="hero-details">
            <h1>Your Satisfaction , our Joy !!</h1>
-           <p>Our team of dedicated members is always ready to serve you delightful meals and snacks</p>
+           <p>Our team of dedicated staffs are always ready to serve you delightful meals and snacks</p>
          
            <button className='hero-button' >Order Now</button>
    

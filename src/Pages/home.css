@@ -6,6 +6,7 @@
     background-size: cover;
     height: 100vh;
     z-index: 100;
+    overflow: hidden;
   }
   
   .hero::after {
@@ -41,7 +42,7 @@
   
   .hero .hero-details h1 {
       color: white;
-    font-size: 20px;
+  
     width: 55%;
   font-style: normal;
   font-weight: bold;
@@ -68,10 +69,9 @@
 .hero-button:hover{
 background-color: white;
 color: #f65314;
+border: 1px solid #f65314 ;
 
 }
-
-
 
 .hero .hero-details p{
 color: #f65314;
@@ -81,5 +81,38 @@ font-size: 23px;
 line-height: 34px;
 text-align: center;
 margin-bottom: 2rem;
+
+}
+
+
+
+
+@media(max-width:930px){
+  .hero-details h1{
+    margin-top: 100px;
+    font-size: 20px;
+    line-height: 45px;
+  
+  }
+
+
+}
+@media(max-width:650px){
+  .hero-details h1{
+    margin-top: 130px;
+    font-size: 18px;
+    line-height: 20px;
+  
+  }
+
+
+}
+
+@media(max-width:480px){
+  .hero-details h1{
+    margin-top: 140px;
+    font-size: 13px;
+    line-height: 13px;
+  }
 
 }

@@ -13,6 +13,7 @@ width: 100%;
 display: grid;
 grid-template-rows: 2fr 2fr 2fr;
  grid-template-columns: 2fr 2fr 2fr;
+ overflow: hidden;
 
 }
 .p-card{
@@ -50,3 +51,9 @@ grid-template-columns:1fr;
 
 }
 
+@media(max-width:600px){
+
+  .products{
+    margin: 25px 0 0 8px;
+    }
+}
