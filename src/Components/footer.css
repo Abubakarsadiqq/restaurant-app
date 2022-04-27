@@ -1,4 +1,30 @@
+.links-and-contact{
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
 
+.links{
+	justify-self: center;
+}
+
+.links-list{
+	list-style: none;
+	padding: 0;
+}
+
+@media (max-width: 650px) {
+	.links-and-contact{
+		grid-template-columns: 100%;
+	}
+}
+
+.submit-button-wrapper{
+	margin: 20px 0;
+}
+
+.submit{
+	background-color: silver;
+}
 
 
 
