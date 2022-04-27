@@ -20,7 +20,7 @@ const Footer = () => {
         <div>
           <form action="#">
             <label for="email">
-              <h3>Write us about anything you need</h3>
+              <h3>Write us about anything you need</h3> <br></br> <br></br>
               <h4>Email</h4>
               <input type="email" id="email" placeholder="Enter your email"/>
             </label>
