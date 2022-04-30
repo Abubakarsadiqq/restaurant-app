@@ -5,7 +5,7 @@ import './home.css';
 
 function Home(){
 return(
-
+ <div className='home'>
    <section className='hero'>
    
          <div className="hero-details">
@@ -16,7 +16,9 @@ return(
    
    
          </div>
+      
    </section>
+</div>
 
     )
 

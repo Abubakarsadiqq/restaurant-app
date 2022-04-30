@@ -6,23 +6,21 @@ const Contact = () => {
   return (
     <div className='c-container'>
         <h1> contact us</h1>
-     <form>
-       <label  for="name">Name</label>
-      <input type='text' className='' placeholder='your name'/>
-    
-   
-       <label  for="title">Title of message</label>
-      <input type='text' className='' placeholder='your message'/>
+        <section className='form'>
 
-     
-     
-      <label>message</label>
-     
+        
+
+     <form>
+   <input type='text ' placeholder='your name'/>
+      <br/>
+      <input type='text' className='' placeholder='Title of message'/>
+    
      <textarea placeholder='leave a message'></textarea>
 
-           
      <button>send</button>
+
      </form>
+        </section>
 
     </div>
   )

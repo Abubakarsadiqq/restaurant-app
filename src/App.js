@@ -26,7 +26,7 @@ return(
       <Route path='/product' element={<Product/>}/>
       <Route path='/contact' element={<Contact/>}/>    
      </Routes>  
-     <footer> <Footer /></footer>
+     <Footer />
     </BrowserRouter>
 
     

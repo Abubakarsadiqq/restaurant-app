@@ -4,42 +4,47 @@
 .c-container h1{
 text-align: center;
 text-transform: uppercase;
-
 }
-form{
-    width: 40%;
+
+.form {
+    width: 250px;
     height: auto;
     padding: 15px;
     margin: 30px 0 0 120px;
     text-align: center;
+    background-color: #f65314;
+    border-radius: 8px;
 
+}
+.form.form{
+    margin: 40px auto;
 }
 form input{
 border-radius: 8px;
-border: 2px solid blue;
-padding: 9px;
+border: none;
+padding: 8px;
 color: #f65314;
 font-size: medium;
+margin: 7px;
 
 }
 
 form textarea{
 padding: 9px;
 height: 200px;
-border: 2px solid blue;
+border:none;
 border-radius: 7px;
+margin: 7px;
+font-size: medium;
 }
 
 form button{
 border:none;
 width: 150px;
 height: 50px;
-background-color: #f65314;
-color:#00a1f1;
-
+background-color: hsl(217, 28%,15%);
+color:white;
+border-radius: 9px;
 
 }
-
-
-
 

@@ -1,3 +1,28 @@
+footer{
+width: 100%;
+position: relative;
+top: 100%;
+bottom: 0;
+height: auto;
+background-color: hsl(217, 28%, 15%);
+color: white;
+padding: 20px;
+text-align: center;
+align-items: center;
+}
+ footer ul li a{
+ color: white;
+font-size: 15px;
+font-weight: bold;
+text-decoration: none;
+cursor: pointer;
+
+ }
+
+footer ul li{
+list-style: none;
+
+}
 
 
 
